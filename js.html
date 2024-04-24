@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title>
+	<script type="text/javascript">
+		//alert("hello world");
+		//confirm("how was the class?");
+        //prompt("what is your name?");
+        //let,var,const keyword
+        //docment.write()
+        //console,log()
+        let x;
+        x=parseInt( prompt("enter the first number"));
+        let y;
+        y= parseInt(prompt("enter the second number"));
+       // let a;
+     // a=alert(x+y);
+
+//document.write();
+       // console.log("sum="+ (y+x))
+        let z;
+        z=parseInt(prompt("enter your choise (1:add       2:sub      3:multiplication    4:div)"));
+/*if( z==1){
+	document.write(x+y);
+}
+else (z==2){
+	document.write(x-y);}
+else( z==3){
+	document.write(x*y);
+}
+else( z==4){
+	document.write(x/y);}
+    */switch (z){
+
+    case 1:
+    	
+    	document.write(x+y);
+    	break;
+    case 2:
+    	
+    	document.write(x-y);
+    	break;
+    case 3:
+    	
+    	document.write(x*y);
+    	break;
+    case 4:
+    	if(y==0){
+    		document.write("error it is not valid ");
+    	}
+    	
+    	document.write(x/y);
+    	break;
+      case 0:
+    	
+    	document.write("error");
+    	break;
+    	
+    }
+
+	</script>
+</head>
+<body>
+<h1>javaScript Lab session</h1>
+</body>
+</html>
